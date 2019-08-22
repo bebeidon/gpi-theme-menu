@@ -182,13 +182,13 @@ function update() {
 if validate_url https://raw.githubusercontent.com/bebeidon/gpi-theme-menu/master/theme_menu.sh; then
 cd
 cd /home/pi/RetroPie/retropiemenu/gpitools/
-sudo wget -O https://raw.githubusercontent.com/bebeidon/gpi-theme-menu/master/theme_menu.sh
+sudo wget -O theme_menu.sh https://raw.githubusercontent.com/bebeidon/gpi-theme-menu/master/theme_menu.sh
 sudo chmod a+x theme_menu.sh
     echo "---------------"
     echo "|| Success!  ||"
     echo "---------------"
     sleep 5s
-    ./$0
+    $0
     exit 1
   else
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
