@@ -22,7 +22,7 @@ function main_menu() {
             3 "GBZ35-GPi" \
             4 "GBZ35-dark-GPi" \
             5 "Minijawn-GPi" \
-            6 "UUUUUUUUUUUUUUUpdate this script" \
+            6 "Update this script" \
             2>&1 > /dev/tty)
 
         case "$choice" in
