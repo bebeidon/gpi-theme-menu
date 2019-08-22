@@ -117,7 +117,7 @@ sudo chown -R pi:pi $name/
 echo "--------------------------------------------------------------------------------"
 echo "Latest version of $name installed"
 echo ""
-echo "If you want to employ the theme, choose the next option [2 Use $name theme] in the menu!"
+echo "If you want to apply the theme, choose the next option [2 Use $name theme] in the menu!"
 echo "--------------------------------------------------------------------------------"
 sleep 10s
   else
@@ -126,7 +126,7 @@ sleep 10s
     echo ".FAILED! File not available or wifi off."
     echo ".                                      ."
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-    sleep 10s
+    sleep 5s
 fi
 }
 
@@ -174,7 +174,7 @@ else
     echo ". FAILED! Theme is not installed yet!  ."
     echo ".                                      ."
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-    sleep 10s
+    sleep 5s
 fi
 }
 
@@ -196,7 +196,7 @@ sudo chmod a+x theme_menu.sh
     echo ".FAILED! File not available or wifi off."
     echo ".                                      ."
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-    sleep 10s
+    sleep 5s
 fi
 }
 
