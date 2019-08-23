@@ -104,7 +104,7 @@ function validate_url(){
 
 function install_update() {
 if validate_url $github; then
-mkdir /opt/retropie/configs/all/emulationstation/themes
+mkdir -p /opt/retropie/configs/all/emulationstation/themes
 cd /opt/retropie/configs/all/emulationstation/themes
 sudo wget -O master.zip $github
 sudo unzip -o master.zip
