@@ -79,7 +79,7 @@ function submenu(){
             --ok-label OK --cancel-label Back \
             --menu "What action would you like to perform?" 25 75 20 \
             1 "Install / Update $name theme" \
-            2 "Use $name theme" \
+            2 "Apply $name theme" \
             2>&1 > /dev/tty)
 
         case "$choice" in
