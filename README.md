@@ -12,6 +12,8 @@ cd gpitools
 wget -O theme_menu.sh https://raw.githubusercontent.com/bebeidon/gpi-theme-menu/master/theme_menu.sh
 chmod 755 theme_menu.sh
 ```
+
+# Follow these instructions for new icons to appear
 The icons for the GPi-Tools folder and more GPi specific icons will be downloaded by the theme_menu.
 You will have to edit your `gamelist.xml` in `/opt/retropie/configs/all/emulationstation/gamelists/retropie/` to include the new images like this:
 ```
