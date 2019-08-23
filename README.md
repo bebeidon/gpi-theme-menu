@@ -2,9 +2,9 @@
 
 # Follow these instructions for update function to work:
 
-Create the /home/pi/RetroPie/retropiemenu/gpitools/ directory
+Create the `/home/pi/RetroPie/retropiemenu/gpitools/` directory
 
-Put the theme_menu.sh in the /home/pi/RetroPie/retropiemenu/gpitools/ directory
+Put the `theme_menu.sh` in the `/home/pi/RetroPie/retropiemenu/gpitools/` directory
 ```
 cd /home/pi/RetroPie/retropiemenu
 mkdir gpitools
@@ -13,7 +13,7 @@ wget -O theme_menu.sh https://raw.githubusercontent.com/bebeidon/gpi-theme-menu/
 chmod 755 theme_menu.sh
 ```
 The icons for the GPi-Tools folder and more GPi specific icons will be downloaded by the theme_menu.
-You will have to edit your gamelist.xml in /opt/retropie/configs/all/emulationstation/gamelists/retropie/ to include the new images like this:
+You will have to edit your `gamelist.xml` in `/opt/retropie/configs/all/emulationstation/gamelists/retropie/` to include the new images like this:
 ```
     <game>
         <path>./gpitools</path>
