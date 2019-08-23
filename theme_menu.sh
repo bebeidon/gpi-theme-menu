@@ -114,10 +114,25 @@ sudo cp -rf $tmp_folder/* $name
 sudo rm -rf $tmp_folder/
 sudo chown -R pi:pi $name/
 
+#Get default icons for GPi-Tools
+if [ -d "/home/pi/RetroPie/retropiemenu/icons_default" ]
+                then
+                        echo "Directory /home/pi/RetroPie/retropiemenu/icons_default exists. Skipping."
+                else
+                        mkdir -p /home/pi/RetroPie/retropiemenu/icons_default
+                        cp /home/pi/RetroPie/retropiemenu/icons/* /home/pi/RetroPie/retropiemenu/icons_default
+                        cd /home/pi/RetroPie/retropiemenu/icons_default
+                        wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/blob/master/retropie/icons/controllertools.png
+                        wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/raw/master/retropie/icons/theme_menu.png
+                        wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/raw/master/retropie/icons/gpitools.png
+                        wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/raw/master/retropie/icons/kernelbootlogo.png
+                fi
+
+
 echo "--------------------------------------------------------------------------------"
 echo "Latest version of $name installed"
 echo ""
-echo "If you want to apply the theme, choose the next option [2 Use $name theme] in the menu!"
+echo "If you want to apply the theme, choose the next option in the menu!"
 echo "--------------------------------------------------------------------------------"
 sleep 10s
   else
@@ -137,13 +152,6 @@ if [ -d "/opt/retropie/configs/all/emulationstation/themes/$name" ]
 then
         if [ -d "$name/retropie/icons" ]
         then
-                if [ -d "/home/pi/RetroPie/retropiemenu/icons_default" ]
-                then
-                        echo "Directory /home/pi/RetroPie/retropiemenu/icons_default exists. Skipping."
-                else
-                        mkdir -p /home/pi/RetroPie/retropiemenu/icons_default
-                        cp /home/pi/RetroPie/retropiemenu/icons/* /home/pi/RetroPie/retropiemenu/icons_default
-                fi
 
         sudo rm -rf /home/pi/RetroPie/retropiemenu/icons/*
         sudo cp $name/retropie/icons/* /home/pi/RetroPie/retropiemenu/icons/
