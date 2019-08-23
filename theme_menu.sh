@@ -16,7 +16,7 @@ function main_menu() {
     while true; do
         choice=$(dialog --backtitle "$BACKTITLE" --title " GPi THEME MENU " \
             --ok-label OK --cancel-label Exit \
-            --menu "Select a theme and restart emulationstation" 25 75 20 \
+            --menu "Select a theme or update this script" 25 75 20 \
             1 "Pixel-GPi" \
             2 "Super-Retroboy-GPi" \
             3 "GBZ35-GPi" \
