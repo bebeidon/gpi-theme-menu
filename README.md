@@ -45,3 +45,9 @@ You will have to edit your `gamelist.xml` in `/opt/retropie/configs/all/emulatio
         <image>./icons/kernelbootlogo.png</image>
     </game>
 ```
+
+
+
+# Install / Update themes only works while connected to the internet
+
+# Changing the theme when previously downloaded can be done offline
