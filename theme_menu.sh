@@ -52,13 +52,13 @@ name='Super-Retroboy-gpi'
 submenu
 }
 function gbz35() {
-github='https://github.com/rxbrad/es-theme-gbz35/archive/master.zip'
+github='https://github.com/bebeidon/es-theme-gbz35/archive/master.zip'
 tmp_folder='es-theme-gbz35-master'
 name='gbz35-gpi'
 submenu
 }
 function gbz35-dark() {
-github='https://github.com/rxbrad/es-theme-gbz35-dark/archive/master.zip'
+github='https://github.com/bebeidon/es-theme-gbz35-dark/archive/master.zip'
 tmp_folder='es-theme-gbz35-dark-master'
 name='gbz35-dark-gpi'
 submenu
