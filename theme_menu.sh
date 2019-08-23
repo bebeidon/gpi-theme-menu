@@ -122,7 +122,7 @@ if [ -d "/home/pi/RetroPie/retropiemenu/icons_default" ]
                         mkdir -p /home/pi/RetroPie/retropiemenu/icons_default
                         cp /home/pi/RetroPie/retropiemenu/icons/* /home/pi/RetroPie/retropiemenu/icons_default
                         cd /home/pi/RetroPie/retropiemenu/icons_default
-                        wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/blob/master/retropie/icons/controllertools.png
+                        wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/raw/master/retropie/icons/controllertools.png
                         wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/raw/master/retropie/icons/theme_menu.png
                         wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/raw/master/retropie/icons/gpitools.png
                         wget https://github.com/SinisterSpatula/es-theme-Super-Retroboy/raw/master/retropie/icons/kernelbootlogo.png
