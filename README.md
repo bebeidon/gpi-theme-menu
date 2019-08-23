@@ -1,6 +1,6 @@
 # gpi-theme-menu
 
-# Follow these instructions for update function to work:
+## Follow these instructions for update function to work:
 
 Create the `/home/pi/RetroPie/retropiemenu/gpitools/` directory
 
@@ -16,7 +16,7 @@ chmod 755 theme_menu.sh
 The theme_menu will now appear in emulationstation under the Retropie section in the GPi-tools folder.
 For a more appealing look, read on.
 
-# Follow these instructions for new icons to appear
+## Follow these instructions for new icons to appear
 The icons for the GPi-Tools folder and more GPi specific icons will be downloaded by the theme_menu.
 You will have to edit your `gamelist.xml` in `/opt/retropie/configs/all/emulationstation/gamelists/retropie/` to include the new images like this:
 ```
@@ -48,6 +48,6 @@ You will have to edit your `gamelist.xml` in `/opt/retropie/configs/all/emulatio
 
 
 
-# Install / Update themes only works while connected to the internet
+## Install / Update themes only works while connected to the internet
 
-# Changing the theme when previously downloaded can be done offline
+## Changing the theme when previously downloaded can be done offline
