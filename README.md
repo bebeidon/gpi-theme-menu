@@ -5,17 +5,17 @@
 Create the /home/pi/RetroPie/retropiemenu/gpitools/ directory
 
 Put the theme_menu.sh in the /home/pi/RetroPie/retropiemenu/gpitools/ directory
-
+```
 cd /home/pi/RetroPie/retropiemenu
 mkdir gpitools
 cd gpitools
 wget -O theme_menu.sh https://raw.githubusercontent.com/bebeidon/gpi-theme-menu/master/theme_menu.sh
 chmod 755 theme_menu.sh
-
+```
 The icons for the GPi-Tools folder and more GPi specific icons will be downloaded by the theme_menu.
 You will have to edit your gamelist.xml in /opt/retropie/configs/all/emulationstation/gamelists/retropie/ to include the new images like this:
-
-<game>
+```
+    <game>
         <path>./gpitools</path>
         <name>GPi-Tools</name>
         <desc>Various tools for GPi</desc>
@@ -39,3 +39,4 @@ You will have to edit your gamelist.xml in /opt/retropie/configs/all/emulationst
         <desc>Change the Boot Logo before the splashscreen/video</desc>
         <image>./icons/kernelbootlogo.png</image>
     </game>
+```
