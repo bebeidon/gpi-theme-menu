@@ -22,7 +22,7 @@ function main_menu() {
             3 "GBZ35-GPi" \
             4 "GBZ35-dark-GPi" \
             5 "Minijawn-GPi" \
-            6 "RetroBoyMKII-GPi"
+            6 "RetroBoyMKII-GPi" \
             7 "Update this script" \
             2>&1 > /dev/tty)
 
