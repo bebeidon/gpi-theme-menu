@@ -22,7 +22,8 @@ function main_menu() {
             3 "GBZ35-GPi" \
             4 "GBZ35-dark-GPi" \
             5 "Minijawn-GPi" \
-            6 "Update this script" \
+            6 "RetroBoyMKII-GPi"
+            7 "Update this script" \
             2>&1 > /dev/tty)
 
         case "$choice" in
@@ -31,7 +32,8 @@ function main_menu() {
             3) gbz35  ;;
             4) gbz35-dark  ;;
             5) minijawn  ;;
-            6) update  ;;
+            6) RetroBoyMKII ;;
+            7) update  ;;
             *)  break ;;
         esac
     done
@@ -69,7 +71,12 @@ tmp_folder='es-theme-minijawn-master'
 name='minijawn-gpi'
 submenu
 }
-
+function RetroBoyMKII() {
+github='https://github.com/Arcanthur/es-theme-RetroBoyMKII/archive/master.zip'
+tmp_folder='es-theme-RetroBoyMKII-master'
+name='RetroBoyMKII-gpi'
+submenu
+}
 function submenu(){
 
     local choice
