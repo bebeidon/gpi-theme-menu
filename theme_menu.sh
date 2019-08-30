@@ -136,11 +136,11 @@ if [ -d "/home/pi/RetroPie/retropiemenu/icons_default" ]
                 fi
 
 
-echo "--------------------------------------------------------------------------------"
+echo "----------------------------------------"
 echo "Latest version of $name installed"
-echo ""
-echo "If you want to apply the theme, choose the next option in the menu!"
-echo "--------------------------------------------------------------------------------"
+echo "If you want to apply the theme"
+echo "choose the next option in the menu!"
+echo "----------------------------------------"
 sleep 7s
   else
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
@@ -175,11 +175,11 @@ then
 
 sudo sed -i -- 's:<string name="ThemeSet" value=.*/>:<string name="ThemeSet" value="'$name'" />:g' /opt/retropie/configs/all/emulationstation/es_settings.cfg
 
-echo "--------------------------------------------------------------------------------"
+echo "----------------------------------------"
 echo "Theme changed to $name"
-echo ""
-echo "Emulationstation will be restarted now. Exiting the script. Please be patient."
-echo "--------------------------------------------------------------------------------"
+echo "Emulationstation will be restarted now."
+echo " Exiting the script. Please be patient."
+echo "----------------------------------------"
 sleep 5s
 es_restart
 
