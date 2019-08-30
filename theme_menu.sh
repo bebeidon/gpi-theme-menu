@@ -154,7 +154,7 @@ then
         then
 
         sudo rm -rf /home/pi/RetroPie/retropiemenu/icons/*
-        sudo cp $name/retropie/icons/* /home/pi/RetroPie/retropiemenu/icons/
+        cp $name/retropie/icons/* /home/pi/RetroPie/retropiemenu/icons/
         cp  -n /home/pi/RetroPie/retropiemenu/icons_default/* /home/pi/RetroPie/retropiemenu/icons
 
         else
