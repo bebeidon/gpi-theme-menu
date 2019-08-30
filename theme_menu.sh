@@ -141,7 +141,7 @@ echo "Latest version of $name installed"
 echo ""
 echo "If you want to apply the theme, choose the next option in the menu!"
 echo "--------------------------------------------------------------------------------"
-sleep 10s
+sleep 7s
   else
     echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo ".                                      ."
@@ -180,7 +180,7 @@ echo "Theme changed to $name"
 echo ""
 echo "Emulationstation will be restarted now. Exiting the script. Please be patient."
 echo "--------------------------------------------------------------------------------"
-sleep 10s
+sleep 5s
 es_restart
 
 else
